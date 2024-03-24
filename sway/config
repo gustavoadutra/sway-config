@@ -14,8 +14,8 @@ set $down j
 set $up k
 set $right l
 
-gaps inner 4
-default_border none
+#gaps inner 1
+#default_border none
 
 # Your preferred terminal emulator
 set $term xfce4-terminal
@@ -24,7 +24,7 @@ set $term xfce4-terminal
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 #set $menu dmenu_path | j4-dmenu-desktop --dmenu="dmenu -i -fn 'Cantarell:pixelsize=14'" --no-generic 
-set $menu dmenu_path | wofi --show drun
+set $menu dmenu_path | rofi -show drun -show-icons
 
 ### Output configuration
 #
