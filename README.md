@@ -1,2 +1,2 @@
 # sway-config
-Just the my sway config.
+Just one more sway config.
